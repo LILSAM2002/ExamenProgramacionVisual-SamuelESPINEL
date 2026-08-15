@@ -1,0 +1,46 @@
+/* Estilos generales */
+.root {
+    -fx-font-family: "Segoe UI", "Arial";
+    -fx-font-size: 12px;
+}
+
+/* Estilos para Label */
+Label {
+    -fx-text-fill: #333333;
+}
+
+/* Estilos para TextField */
+TextField {
+    -fx-font-size: 12px;
+    -fx-padding: 8px;
+    -fx-border-radius: 4px;
+}
+
+/* Estilos para Button */
+Button {
+    -fx-padding: 8px 20px;
+    -fx-font-size: 12px;
+    -fx-background-color: #007ACC;
+    -fx-text-fill: white;
+    -fx-border-radius: 4px;
+    -fx-cursor: hand;
+}
+
+Button:hover {
+    -fx-background-color: #005a9c;
+}
+
+/* Estilos para ListView */
+ListView {
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-border-radius: 4px;
+}
+
+/* Estilos para TextArea */
+TextArea {
+    -fx-control-inner-background: #f5f5f5;
+    -fx-font-size: 11px;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+}
