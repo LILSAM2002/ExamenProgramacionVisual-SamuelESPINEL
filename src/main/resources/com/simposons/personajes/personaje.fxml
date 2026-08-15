@@ -11,10 +11,13 @@
     <top>
         <VBox spacing="10" style="-fx-padding: 15;">
             <Label text="Búsqueda de Personajes Simpsons" style="-fx-font-size: 18; -fx-font-weight: bold;"/>
+            <Label fx:id="errorLabel" style="-fx-text-fill: #d9534f; -fx-font-weight: bold;"/>
             <HBox spacing="10">
                 <TextField fx:id="searchField" promptText="Ingresa el nombre del personaje" HBox.hgrow="ALWAYS"/>
-                <Button fx:id="searchButton" text="Buscar" style="-fx-padding: 8 20;"/>
+                <Button fx:id="searchButton" text="🔍 Buscar" style="-fx-padding: 8 20;"/>
+                <Button fx:id="randomButton" text="🎲 Aleatorio" style="-fx-padding: 8 20;"/>
             </HBox>
+            <Button fx:id="loadMoreButton" text="➕ Cargar Más" style="-fx-padding: 8 20;"/>
         </VBox>
     </top>
 
